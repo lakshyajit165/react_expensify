@@ -1,5 +1,4 @@
 // Filters Reducer
-
 const filtersReducerDefaultState = {
     text: '',
     sortBy: 'date',
