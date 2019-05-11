@@ -107,7 +107,7 @@ class ExpenseForm extends Component{
 
                 </textarea>
                 <div>   
-                    <button className="button" type="submit">Save Expense</button>
+                    <button className="button" type="submit">Save Expense<i className="fas fa-save" style={{ marginLeft: '5px'}}></i></button>
                 </div>
                 
             </form>

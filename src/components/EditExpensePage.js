@@ -31,7 +31,7 @@ export class EditExpensePage extends React.Component{
                             expense={this.props.expense}
                             onSubmit={this.onSubmit}
                     />
-                    <button className="button button--secondary" onClick={this.onRemove}>Remove Expense</button>
+                    <button className="button button--secondary" onClick={this.onRemove}>Remove Expense<i className="fas fa-trash" style={{ marginLeft: '5px'}}></i></button>
                </div> 
                
             </div>
